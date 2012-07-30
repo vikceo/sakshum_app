@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @blood_donor.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @blood_donor.email %>
+</p>
+
+<p>
+  <b>Gender:</b>
+  <%= @blood_donor.gender %>
+</p>
+
+<p>
+  <b>Bloodgroup:</b>
+  <%= @blood_donor.bloodGroup %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @blood_donor.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @blood_donor.state %>
+</p>
+
+<p>
+  <b>Zip:</b>
+  <%= @blood_donor.zip %>
+</p>
+
+
+<%= link_to 'Edit', edit_blood_donor_path(@blood_donor) %> |
+<%= link_to 'Back', blood_donors_path %>

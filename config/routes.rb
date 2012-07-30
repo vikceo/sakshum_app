@@ -1,4 +1,6 @@
 SakshumApp::Application.routes.draw do
+  resources :blood_donors
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
